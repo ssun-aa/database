@@ -19,7 +19,7 @@ public class jdbcPractice {
 //		smDao.delMember("seungmin");
 		
 		StudyMember sm4 = new StudyMember();
-		List<StudyMember> list = smDao.selectAll();
+		List<StudyMember> list = smDao.selectAll();//전체 데이터 출력
 		for(int i = 0 ; i < list.size();i++) {
 			sm4 = list.get(i);
 			
